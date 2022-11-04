@@ -1,0 +1,181 @@
+# Test Plan: buttons
+
+# 	Test Case 01:
+# This test will check if the ‘See All Bots’ button is giving me all the bots
+
+# Steps
+# See the ‘See All Bots’ btn
+# Click the ‘See All Bots’ btn
+# Check if all the bots are there.
+		
+# 		Test Postconditions
+			
+# 			When a click the ‘See All Bots’ is suppose to give five bots, with there
+#  names, health and their two attacks.
+
+
+# 	Test Case 02:
+# 		This test will check if the ‘Draw’ button is giving me all the bots, and the option to
+# 		add to my team
+
+# Steps
+# See the ‘Draw’ btn
+# Click the ‘Draw’ btn
+# Check if all the bots are there.
+# Check if I have the option to add to my team
+# Check if It has a limit of 2
+		
+# 		Test Postconditions
+			
+# 			When a click the ‘Draw’ is suppose to give five bots, with there
+#  names, health and their two attacks. Add If appear a button to add bots
+# to my team, and It is supposed to have a limit of 2
+
+	
+# Test Case 03:
+# 		This test will check if the ‘Add’ button is adding the bot to my team, and
+# 		take that bot out of the area of choice.
+
+# Steps
+# See the ‘Add’ btn
+# Click the ‘Add’ btn
+# Check if still the same number of bots on the area.
+# Check if, on the bot I added, I have the option to
+#  remove to my team
+# Check if It has a limit of 2 bots on my team
+		
+# 		Test Postconditions
+			
+# 			When a click the ‘Add’ is supposed to move that bot to a different
+#  area, with their names, health and their two attacks. Add If appear 
+# a button to remove bots from my team, and It is supposed to have
+#  a limit of 2
+
+
+# 	Test Case 04:
+# 		This test will check if the ‘Remove’ button is removing the bot from my
+#  team, and add that bot to the area of choice.
+
+# Steps
+# See the ‘Remove’ btn
+# Click the ‘Remove’ btn
+# Check if the same bots are on my team.
+# Check if the choice area was added
+# Check if, on the bot I remove, I have the option to
+#  add to my team
+		
+# 		Test Postconditions
+			
+# 			When a click the ‘Remove’ is supposed to move that bot to a the
+#  choice area, with their names, health and their two attacks. Add If
+#  a button to add bots from my team.
+
+
+# 	Test Case 05:
+# 		This test will check if the ‘DUEL!’ button is making a match between ,my
+# Team and the enemy team, and say if a lose or win
+
+# Steps
+# See the ‘DUEL!’ btn
+# Click the ‘DUEL!’ btn
+# Check if I lose or win the match.
+# Check if appear a button to play again
+
+
+# 		Test Postconditions
+			
+# 			When a click the DUEL!’ is supposed make a match between
+# 			My team and the enemy team.And It is supposed to say if I win or
+# lose to appear a button to play again, and count
+
+
+
+# 	Test Case 06:
+# 		This test will check if the ‘play again!’ button is clean everything to
+# 		The draw button
+
+# Steps
+# See the ‘play again!’ btn
+# Click the ‘play again!’ btn
+# Check if the page is clear
+# Check if it is on the Draw button
+
+
+# 		Test Postconditions
+			
+# 			When I click the ‘play again!’ clear my page and
+# 			And go back to the draw button.
+
+
+
+
+# Bug report: buttons
+
+# 	Test Case 01:
+# This test will check if the ‘See All Bots’ button is giving me all the bots
+
+# Steps
+# See the ‘See All Bots’ btn
+# Click the ‘See All Bots’ btn
+# Check if all the bots are there.
+		
+# 		Expectation
+			
+# 			When a click the ‘See All Bots’ is suppose to give five bots, with there
+#  names, health and their two attacks.
+
+# Happen
+# 	It did not show me the robots.
+
+# November 4 2022
+# MacOs 12.2.1
+
+# 	Test Case 05
+# 		This test will check if the ‘DUEL!’ button is making a match between ,my
+# Team and the enemy team, and say if a lose or win
+
+# Steps
+# See the ‘DUEL!’ btn
+# Click the ‘DUEL!’ btn
+# Check if I lose or win the match.
+# Check if appear a button to play again
+
+
+# 		Expectation
+			
+# 			When a click the DUEL!’ is supposed make a match between
+# 			My team and the enemy team.And It is supposed to say if I win or
+# lose to appear a button to play again, and count
+
+# Happen 
+# 	It did make a match, It did say If a win or lose. But It did not count
+# 	Winning. And It did show me the play again btn
+
+# November 4 2022
+# MacOs 12.2.1
+
+
+
+# Test Case 06
+# 		This test will check if the ‘play again!’ button is clean everything to
+# 		The draw button
+
+# Steps
+# See the ‘play again!’ btn
+# Click the ‘play again!’ btn
+# Check if the page is clear
+# Check if it is on the Draw button
+
+
+# 		Expectation
+			
+# 			When I click the ‘play again!’ clear my page and
+# 			And go back to the draw button.
+
+# 		Happen
+# 			It did not clear my screen, it just cleared the robots.
+# 			But it did go back to the draw button
+
+
+# 		November 4 2022
+# MacOs 12.2.1
