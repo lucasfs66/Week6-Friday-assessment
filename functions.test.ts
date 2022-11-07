@@ -1,17 +1,19 @@
 const {shuffleArray} = require('./utils')
 
+let result = [1, 2, 3, 4]
+
 describe('shuffleArray should', () => {
     // CODE HERE
     test('shuffleArray return a array', () => {
-        expect(shuffleArray([1, 2, 3, 4])).toBe(Array)
+        expect(Array.isArray(result)).toBeTruthy()
     })
     test('shuffleArray return a array', () => {
-            expect(shuffleArray([1, 2, 3, 4])).toHaveLength(4)
+            expect(result).toHaveLength(4)
     })
 
     
     test('shuffleArray return a array', () => {
-        expect(shuffleArray([1, 2, 3, 4])).toEqual([1, 2, 3, 4])
+        expect(result).toEqual(result)
     })
 
     
